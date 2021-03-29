@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px;
+    padding: 10px;
+}
+
+nav {
+    background-color: #333;
+    padding: 14px;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 14px;
+}
+
+nav a:first-child {
+    padding-left: 16px;
+}
+
+nav a:hover {
+    color: black;
+    background-color: #ddd;
+}
+
+main {
+    background-color: white;
+    height: 560px;
+    margin: 0px;
+    padding: 0px;
+}
+
+section#cardapio {
+    background-color: white;
+    padding-top: 0px;
+}
+
+#cardapio h1 {
+    padding: 40px 0px 0px 20px;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.menu {
+    padding-bottom: 12px
+}
+
+.item {
+    display: block;
+}
+
+.item p {
+    padding-left: 60px;
+    padding-bottom: 2px;
+    font-size: 1.5em;
+}
+
+.preco {
+    color: white;
+    background-color: #616161;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: right;
+    float: right;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #ddd;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
