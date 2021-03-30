@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: white;
+    height: 180px;
+    margin: 18px 18px 0px 18px;
+}
+
+header h1 {
+    text-align: center;
+    padding: 65px;
+    font-size: 3.15em;
+}
+
+nav {
+    background-color: #333333;
+    margin: 0px 18px 18px 18px;
+}
+
+nav a {
+    color: #f3f3f3;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+}
+
+nav a:hover {
+    color: black;
+    background-color: #dddddd;
+}
+
+nav a:last-child {
+    padding-left: 50px;
+
+    background-image: url(./imagens/compra.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+
+    float: right;
+}
+
+.card {
+    display: inline;
+    float: left;
+    padding-left: 65px;
+    margin: 0px;
+}
+
+.imagem {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.jaqueta {
+    background-image: url(./imagens/jaqueta.jpg);
+}
+
+.bone {
+    background-image: url(./imagens/bone.jpg);
+}
+
+.info p{
+}
